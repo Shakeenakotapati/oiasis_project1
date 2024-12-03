@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(120deg, #00b4db, #0083b0);
+  color: #333;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  color: white;
+  padding: 100px 20px;
+  background: linear-gradient(120deg, #1c92d2, #f2fcfe);
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.header .btn {
+  display: inline-block;
+  background-color: #00b894;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.header .btn:hover {
+  background-color: #019d74;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 1200px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+}
+
+.card-icon {
+  font-size: 3em;
+  color: #00b894;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  list-style-type: none;
+  margin: 10px auto;
+  padding: 0;
+}
+
+.card ul li {
+  margin-bottom: 5px;
+  font-size: 1em;
+  padding: 5px 0;
+  color: #666;
+}
+
+.card ul li::before {
+  content: "✔";
+  color: #00b894;
+  margin-right: 10px;
+}
+
+.card .btn {
+  display: inline-block;
+  background-color: #00b894;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card .btn:hover {
+  background-color: #019d74;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
